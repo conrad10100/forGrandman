@@ -1,0 +1,38 @@
+#dateBox{
+  border: 3px solid black;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+  padding: 5px;
+  font-size: 40px;
+
+}
+
+.box{
+  border: 3px solid black;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 100px;
+  text-align: left;
+  padding: 5px;
+  font-size: 40px;
+  float: left;
+}
+.button{
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+}
+#circle1{
+  margin-top: 60px;
+  width: 250px;
+}
+#circle2{
+  margin-top: 80px;
+  width: 250px;
+}
+#circle3{
+  margin-top: 80px;
+  width: 250px;
+}
