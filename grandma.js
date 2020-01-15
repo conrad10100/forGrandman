@@ -1,12 +1,12 @@
 var i=1;
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 window.onload = function()
 {
   var img = document.getElementById("circle1");
   //img.onclick = changeImage;
   var date = new Date();
   var year = date.getFullYear();
-  var month = months[date.getMonth()];
+  //var month = months[date.getMonth()];
 
   var day = date.getDate();
   document.getElementById("mydate").innerHTML=(date.getMonth()+1) +"月 "+day+ ", "+year;
