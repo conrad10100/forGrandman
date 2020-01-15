@@ -7,8 +7,9 @@ window.onload = function()
   var date = new Date();
   var year = date.getFullYear();
   var month = months[date.getMonth()];
+
   var day = date.getDate();
-  document.getElementById("mydate").innerHTML=month+" "+day+", "+year;
+  document.getElementById("mydate").innerHTML=(date.getMonth()+1) +"月 "+day+ ", "+year;
 };
 
 function myFunction1(  ) {
@@ -38,3 +39,12 @@ function myFunction1(  ) {
           i=0
         }
       }
+
+      function myFunction4(  ) {
+        var images = ["redCircle.jpg", "greenCircle.png"];
+        $("circle4").src= images[i];
+        i++;
+          if(i>1){
+            i=0
+          }
+        }

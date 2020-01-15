@@ -1,19 +1,19 @@
 #dateBox{
   border: 3px solid black;
-  width: 50%;
+  width: 49%;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: left;
   padding: 5px;
   font-size: 40px;
-
+  float: left;
 }
 
 .box{
   border: 3px solid black;
   width: 50%;
   margin-left: 30px;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: left;
   padding: 5px;
   font-size: 40px;
@@ -25,14 +25,25 @@
   border-style: solid;
 }
 #circle1{
-  margin-top: 60px;
-  width: 250px;
+  margin-top: 200px;
+  width: 200px;
 }
 #circle2{
-  margin-top: 60px;
-  width: 250px;
+  margin-top: 50px;
+  width: 200px;
 }
 #circle3{
-  margin-top: 60px;
-  width: 250px;
+  margin-top: 50px;
+  width: 200px;
+}
+#circle4{
+  margin-top: 50px;
+  width: 200px;
+}
+
+#photo{
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin: 0px;
 }
