@@ -15,14 +15,14 @@ window.onload = function()
   document.getElementById("mydate").innerHTML=(date.getMonth()+1) +"月 "+day+ ", "+year;
   var database = firebase.database();
   var firebaseConfig = {
-    apiKey: "AIzaSyAhHWZdJY-4BUgKvnapdMiypVhwJlSiA3o",
+    apiKey: "brb-brb",
     authDomain: "gramgram-c04dd.firebaseapp.com",
     databaseURL: "https://gramgram-c04dd.firebaseio.com",
     projectId: "gramgram-c04dd",
     storageBucket: "gramgram-c04dd.appspot.com",
-    messagingSenderId: "790397290686",
-    appId: "1:790397290686:web:9a0a0a3d5b6ee37290b6ef",
-    measurementId: "G-R29PT80830"
+    messagingSenderId: "brb",
+    appId: "1:brb:web:brb",
+    measurementId: "G-brb"
   };
   firebase.initializeApp(firebaseConfig);
   firebase.database().ref('medicineMorning').child('morning').once('value',function (update){
