@@ -4,8 +4,9 @@ Doing this for two reasons.
 Reason 1 I think it'll make my grandma feel more independent if she doesn't have to be reminded by my dad to take her medication.
 Reason 2 my dad won't have to call every few hours to ask if she's taken it. He'll be able to check the page
 
-https://conrad-g-ma.s3.ca-central-1.amazonaws.com/webpage.html
+ https://gramgram-c04dd.firebaseapp.com
+ Click on picture of grandma in top right to load realtime value
 
-Need to complete php and move to Amazon Lightsail
+1.*Need to add authentication
 
-Also add google photos
+2. Also add google photos
