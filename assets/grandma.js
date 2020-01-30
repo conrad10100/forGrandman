@@ -1,7 +1,6 @@
 var i=1;
 var dawg =0, lun =0, din =0, noon=0;
 
-//var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 window.onload = function()
 {
   var images = ["assets/redCircle.jpg", "assets/greenCircle.png"];
@@ -15,14 +14,14 @@ window.onload = function()
   document.getElementById("mydate").innerHTML=(date.getMonth()+1) +"月 "+day+ ", "+year;
   var database = firebase.database();
   var firebaseConfig = {
-    apiKey: "AIzaSyAhHWZdJY-4BUgKvnapdMiypVhwJlSiA3o",
-    authDomain: "gramgram-c04dd.firebaseapp.com",
-    databaseURL: "https://gramgram-c04dd.firebaseio.com",
-    projectId: "gramgram-c04dd",
-    storageBucket: "gramgram-c04dd.appspot.com",
-    messagingSenderId: "790397290686",
-    appId: "1:790397290686:web:9a0a0a3d5b6ee37290b6ef",
-    measurementId: "G-R29PT80830"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   firebase.initializeApp(firebaseConfig);
      var images = ["assets/redCircle.jpg", "assets/greenCircle.png"];
