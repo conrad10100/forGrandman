@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <META HTTP-EQUIV="refresh" CONTENT="86400">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Grandma Update </title>
@@ -26,12 +27,22 @@
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
 
   <!-- Fills the box with the date and time with id mydata -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-    <div id="dateBox" onload="loadImage()">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    Email Address: <input type="text" name="user">
+    Passwords: <input type="password" name="password">
+  </div>
+
+</div>
+  <div id="dateBox" onload="loadImage()">
     <p id="mydate">  Date </p>
   </div>
   <div ><img onclick="loadImage()" id ="photo" src="assets/download.png" alt="photo" >
-  
+
   </div>
 
 
@@ -45,7 +56,7 @@
 <!-- Afternoon medicine and circle indicator on right -->
   <div>
     <div class="box">
-      <p id="afternoonMed"> 午餐時間藥 Afternnon Medicine </p>
+      <p id="afternoonMed"> 午餐時間藥 Afternoon Medicine </p>
     </div>
     <p><button class="button" type="button" onclick="myFunction2()";><img id="circle2" src="assets/redCircle.jpg"></button></p>
   </div>
@@ -62,6 +73,15 @@
     <p><button class="button" type="button" onclick="myFunction4()";><img id="circle4" src="assets/redCircle.jpg"></button></p>
   </div>
   <script src="/__/firebase/init.js"></script>
-  
+  <!--const firebaseConfig = {
+  apiKey: "AIzaSyAhHWZdJY-4BUgKvnapdMiypVhwJlSiA3o",
+  authDomain: "gramgram-c04dd.firebaseapp.com",
+  databaseURL: "https://gramgram-c04dd.firebaseio.com",
+  projectId: "gramgram-c04dd",
+  storageBucket: "gramgram-c04dd.appspot.com",
+  messagingSenderId: "790397290686",
+  appId: "1:790397290686:web:9a0a0a3d5b6ee37290b6ef",
+  measurementId: "G-R29PT80830"
+};-->
 </body>
 </html>
