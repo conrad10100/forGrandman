@@ -5,8 +5,4 @@ Reason 1 I think it'll make my grandma feel more independent if she doesn't have
 Reason 2 my dad won't have to call every few hours to ask if she's taken it. He'll be able to check the page
 
  https://gramgram-c04dd.firebaseapp.com
- Click on picture of grandma in top right to load realtime value
-
-1.*Need to add authentication
-
-2. Also add google photos
+ 
